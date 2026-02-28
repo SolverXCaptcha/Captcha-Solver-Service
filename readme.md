@@ -14,7 +14,7 @@
 ### Example Request (cURL)
 
 ```bash
-curl "https://wssolver.net/solve?sitekey=0x4&siteurl=https://www.example.com/"
+curl "https://wssolver.net/solve?apikey=YOUR_KEY&sitekey=0x4&siteurl=https://example.com"
 
 ### Example Response
 
@@ -26,7 +26,7 @@ curl "https://wssolver.net/solve?sitekey=0x4&siteurl=https://www.example.com/"
 
 ## Overview
 
-WSSolver is a captcha solving service that generates valid tokens for various captcha types including hCaptcha, reCAPTCHA, Turnstile, and more. The API provides a simple HTTP interface for integrating captcha solving into your applications.
+WSSolver is a captcha solving service that generates valid tokens for various captcha types includingTurnstile, and more. The API provides a simple HTTP interface for integrating captcha solving into your applications.
 
 ### Features
 
