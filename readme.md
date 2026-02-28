@@ -1,19 +1,41 @@
-🚀 WSSolver – Fast & Reliable Captcha Solving API
+# WSSolver - Captcha Solving API
 
-⚡ Free 1000 Captcha Credits for Testing
-🌐 https://wssolver.net
+<div align="center">
+  <img src="https://i.hizliresim.com/8hpunhl.png" alt="WSSolver Banner" width="600">
+  
+  [![API Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![Response Time](https://img.shields.io/badge/response-<1s-blue.svg)]()
+  [![Success Rate](https://img.shields.io/badge/success%20rate-high-brightgreen.svg)]()
+</div>
 
-<p align="center"> <img src="https://i.hizliresim.com/8hpunhl.png" width="650" alt="WSSolver Preview"> </p>
-📌 Overview
+## 🚀 Overview
 
-WSSolver is a high-performance captcha solving API that generates valid tokens for supported captcha systems including Cloudflare Turnstile and similar challenge types.
+WSSolver is a high-performance captcha solving service that generates valid tokens for various captcha types including Turnstile and more. Our API provides a simple HTTP interface for seamless integration into your applications.
 
-The API is designed for:
+## ✨ Features
 
-⚡ Speed
+- **⚡ Lightning Fast** - Average response time under 1 second
+- **🎯 High Success Rate** - Reliable token generation
+- **🔌 Simple Integration** - Clean REST API interface
+- **🔧 Multiple Captcha Types** - Support for various captcha systems
+- **📦 JSON Responses** - Easy to parse and integrate
 
-🎯 High success rate
+## 🆓 Free Trial
 
-🔌 Easy integration
+Get started with **1000 free captcha solves** for testing:
+👉 [https://wssolver.net](https://wssolver.net)
 
-📦 Simple REST architecture
+## 📖 API Documentation
+
+### Request Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `apikey` | string | ✅ | Your API authentication key |
+| `sitekey` | string | ✅ | The site key of the captcha |
+| `siteurl` | string | ✅ | The URL where the captcha appears |
+
+### Example Request
+
+#### cURL
+```bash
