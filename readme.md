@@ -1,8 +1,11 @@
 # WSSolver - Captcha Solving API
 ## 🆓 Free Trial
 
-Get started with **1000 free captcha solves** for testing:
+
+### Get started with **1000 free captcha solves** for testing:
+
 👉 [https://wssolver.net](https://wssolver.net)
+
 <div align="center">
   <img src="https://i.hizliresim.com/8hpunhl.png" alt="WSSolver Banner" width="600">
   
