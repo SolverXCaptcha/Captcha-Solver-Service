@@ -1,40 +1,52 @@
-### Free 1000 Captcha Solver Test https://wssolver.net
+🚀 WSSolver – Fast & Reliable Captcha Solving API
 
+⚡ Free 1000 Captcha Credits for Testing
+🌐 https://wssolver.net
 
-<a href="https://hizliresim.com/8hpunhl"><img src="https://i.hizliresim.com/8hpunhl.png" alt="ff"></a>
+<p align="center"> <img src="https://i.hizliresim.com/8hpunhl.png" width="600" alt="WSSolver Preview"> </p>
+📌 Overview
 
+WSSolver is a high-performance captcha solving API that generates valid tokens for various captcha types, including:
 
-### Request Parameters
+Cloudflare Turnstile
 
-| Parameter | Description |
-|-----------|-------------|
-| `sitekey` | The site key of the captcha you want to solve |
-| `siteurl` | The URL of the website where the captcha appears |
+JavaScript-based challenges
 
-### Example Request (cURL)
+Other supported captcha systems
 
-```bash
-curl "https://wssolver.net/solve?apikey=YOUR_KEY&sitekey=0x4&siteurl=https://example.com"
+The API is designed to be fast, reliable, and easy to integrate into any backend or automation workflow.
 
-### Example Response
+✨ Features
 
+✅ Fast response time (typically under 1 second)
+
+✅ High success rate
+
+✅ Simple REST API
+
+✅ JSON structured responses
+
+✅ Scalable infrastructure
+
+✅ Free 1000 test credits
+
+🔧 API Endpoint
+GET https://wssolver.net/solve
+📥 Request Parameters
+Parameter	Type	Required	Description
+apikey	string	✅ Yes	Your API key
+sitekey	string	✅ Yes	Captcha site key
+siteurl	string	✅ Yes	Page URL where captcha is loaded
+💻 Example Request (cURL)
+curl "https://wssolver.net/solve?apikey=YOUR_API_KEY&sitekey=0x4AAAAAAAaa&siteurl=https://example.com"
+📤 Example Response
 {
   "success": true,
   "time": 0.411776359,
   "token": "0.token"
 }
-
-## Overview
-
-WSSolver is a captcha solving service that generates valid tokens for various captcha types includingTurnstile, and more. The API provides a simple HTTP interface for integrating captcha solving into your applications.
-
-### Features
-
-- ✅ Fast response times (typically under 1 second)
-- ✅ High success rate
-- ✅ Simple REST API interface
-- ✅ Support for multiple captcha types
-- ✅ No authentication required for basic usage
-- ✅ JSON response format
-
----
+⚡ Response Fields
+Field	Type	Description
+success	boolean	Request result status
+time	float	Solving duration (seconds)
+token	string	Generated captcha token
