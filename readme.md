@@ -39,3 +39,5 @@ Get started with **1000 free captcha solves** for testing:
 
 #### cURL
 ```bash
+curl "https://wssolver.net/solve?apikey=YOUR_KEY&sitekey=0x4&siteurl=https://example.com"
+```
