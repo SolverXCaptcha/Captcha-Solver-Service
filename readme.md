@@ -1,5 +1,8 @@
 # WSSolver - Captcha Solving API
+## 🆓 Free Trial
 
+Get started with **1000 free captcha solves** for testing:
+👉 [https://wssolver.net](https://wssolver.net)
 <div align="center">
   <img src="https://i.hizliresim.com/8hpunhl.png" alt="WSSolver Banner" width="600">
   
@@ -19,11 +22,6 @@ WSSolver is a high-performance captcha solving service that generates valid toke
 - **🔌 Simple Integration** - Clean REST API interface
 - **🔧 Multiple Captcha Types** - Support for various captcha systems
 - **📦 JSON Responses** - Easy to parse and integrate
-
-## 🆓 Free Trial
-
-Get started with **1000 free captcha solves** for testing:
-👉 [https://wssolver.net](https://wssolver.net)
 
 ## 📖 API Documentation
 
