@@ -1,4 +1,4 @@
-# WSSolver - Captcha Solving API
+# Solverx - Captcha Solving API
 ## 🆓 Free Trial
 
 
