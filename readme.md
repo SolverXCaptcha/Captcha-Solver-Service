@@ -18,7 +18,7 @@
 
 ## 🚀 Overview
 
-WSSolver is a high-performance captcha solving service that generates valid tokens for various captcha types including Turnstile and more. Our API provides a simple HTTP interface for seamless integration into your applications.
+WSSolver is a high-performance captcha solving service that generates valid tokens for various captcha types including Turnstile and more. Our API provides a simple HTTP interface for seamless integration into your applications
 
 ## ✨ Features
 
