@@ -4,6 +4,8 @@
 
 ### Get started with **1000 free captcha solves** for testing:
 
+### Price : 1000/0.4$
+
 👉 [https://wssolver.net](https://wssolver.net)
 
 <div align="center">
